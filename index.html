@@ -5,44 +5,236 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revolut</title>
-    <link rel="stylesheet" href="./assets/css/master.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
-    <div class="nav-tab">
-        <div class="logo">
-            <img src="./assets/img/svgexport-1.svg" alt="">
+    <div class="nav-bar">
+        <div class="right-nav">
+            <div class="logo">
+                <img src="./assets/img/svgexport-1.svg">
+            </div>
+            <span><a class="active-txt" href="">Personal</a></span>
+            <span><a href="">Business</a></span>
         </div>
 
-        <div class="hamburger-icon">
-            <i class="fas fa-bars"></i>
-        </div>
-    </div>
-
-    <div class="hamburger-menu">
-        <div class="container">
-            <div class="header-container">
-                <a href="#">Personal</a>
-                <a href="#" class="text-left">Business</a>
-                <i class="fas fa-times"></i>
+        <div class="left-nav">
+            <span>
+                <a class="link-hover" href="">Features</a>
+                <div class="container-features">
+                    <ul>
+                        <li class='display-flex'>
+                            <img src="./assets/img/svgexport-3.svg" alt="">
+                            <p>ACCOUNT</p>
+                        </li>
+                        <li><a href="">Budget & Analytics</a></li>
+                        <li><a href="">Cards</a></li>
+                        <li><a href="">Junior account</a></li>
+                        <li><a href="">Pokets</a></li>
+                    </ul>
+    
+                    <ul>
+                        <li class='display-flex'>
+                            <img src="./assets/img/svgexport-3.svg" alt="">
+                            <p>WEALTH</p>
+                        </li>
+                        <li><a href="">Crypto</a></li>
+                        <li><a href="">Commodities</a></li>
+                        <li><a href="">Vaults</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+    
+                    <ul>
+                        <li class='display-flex'>
+                            <img src="./assets/img/svgexport-3.svg" alt="">
+                            <p>PAYMENTS</p>
+                        </li>
+                        <li><a href="">Money transfers</a></li>
+                        <li><a href="">Group bills</a></li>
+                        <li><a href="">Subscriptions</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+    
+                    <ul>
+                        <li class='display-flex'>
+                            <img src="./assets/img/svgexport-3.svg" alt="">
+                            <p>EXTRAS</p>
+                        </li>
+                        <li><a href="">Donations</a></li>
+                        <li><a href="">Overseas insurance</a></li>
+                        <li><a href="">Device insurance</a></li>
+                        <li><a href="">Safety</a></li>
+                    </ul>
+                </div>
+            </span>
+            <span>
+                <a class="link-hover" href="">Plans</a>
+                <div class="container-features plans">
+                    <ul>
+                        <li><a href="">Standard</a></li>
+                        <li><a href="">Plus</a></li>
+                        <li><a href="">Premium</a></li>
+                        <li><a href="">Metal</a></li>
+                        <li><a href="">Compare plans</a></li>
+                    </ul>
+    
+                </div>
                 
-            </div>
-            <hr>
-
-            <div class="link">
-                <ul>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Plans</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Follow</a></li>
-                </ul>
-            </div>
+            </span>
+            <span>
+                <a class="link-hover" href="">About us</a>
+                <div class="container-features about">
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Leadership</a></li>
+                        <li><a href="">Newsroom</a></li>
+                        <li><a href="">Affiliates</a></li>
+                        <li><a href="">Influencers</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Culture</a></li>
+                        <li><a href="">Diversity & Inclusion</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+    
+                </div>
+                
+            </span>
+            <span>
+                <a class="link-hover" href="">Help</a>
+                <div class="container-features help">
+                    <ul>
+                        <li><a href="">Help center</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Security</a></li>
+                        <li><a href="">System Status</a></li>
+                        <li><a href="">Developer APIs</a></li>
+                    </ul>
+    
+                </div>
+                
+            </span>
+            <span class="padding-1"><a class="btn white" href="">Sign in</a></span>
+            <span class="padding-1"><a class="btn black" href="">Get the App</a></span>
         </div>
-            
+        
     </div>
+
+    <!-- mobile -->
+    <div class="container-xs">
+        <div class="nav-bar-xs">
+   
+            <div class="logo">
+                <img src="./assets/img/svgexport-1.svg">
+            </div>
+            <i class="fas fa-bars"></i>
+           
+        </div>
+    
+        
+        <div class="links-drop">
+            <div class="hamburger-dropdown">
+                <div class="dropped-header-left">
+                    <span><a class="active-txt" href="">Personal</a></span>
+                    <span><a href="">Business</a></span>
+                </div>
+                    
+                <i  class="fas fa-times"></i>
+          
+            </div>
+            <hr style="width:95%; margin:10px auto; margin-bottom: 10px;">
+    
+            
+        <a class="link-hover-xs" href="#">Features</a>
+        <div class="container-features-xs">
+            <ul>
+                <li class='display-flex'>
+                    <img src="./assets/img/svgexport-3.svg" alt="">
+                    <p>ACCOUNT</p>
+                </li>
+                <li><a href="">Budget & Analytics</a></li>
+                <li><a href="">Cards</a></li>
+                <li><a href="">Junior account</a></li>
+                <li><a href="">Pokets</a></li>
+            </ul>
+
+            <ul>
+                <li class='display-flex'>
+                    <img src="./assets/img/svgexport-3.svg" alt="">
+                    <p>WEALTH</p>
+                </li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Commodities</a></li>
+                <li><a href="">Vaults</a></li>
+               
+            </ul>
+
+            <ul>
+                <li class='display-flex'>
+                    <img src="./assets/img/svgexport-3.svg" alt="">
+                    <p>PAYMENTS</p>
+                </li>
+                <li><a href="">Money transfers</a></li>
+                <li><a href="">Group bills</a></li>
+                <li><a href="">Subscriptions</a></li>
+               
+            </ul>
+
+            <ul>
+                <li class='display-flex'>
+                    <img src="./assets/img/svgexport-3.svg" alt="">
+                    <p>EXTRAS</p>
+                </li>
+                <li><a href="">Donations</a></li>
+                <li><a href="">Overseas insurance</a></li>
+                <li><a href="">Device insurance</a></li>
+                <li><a href="">Safety</a></li>
+            </ul>
+        </div>
+        <a class="link-hover-xs" href="#">Plans</a>
+        <div class="container-features-xs">
+            <ul>
+                <li><a href="">Standard</a></li>
+                <li><a href="">Plus</a></li>
+                <li><a href="">Premium</a></li>
+                <li><a href="">Metal</a></li>
+                <li><a href="">Compare plans</a></li>
+            </ul>
+
+        </div>
+
+        <a class="link-hover-xs" href="#">About us</a>
+        <div class="container-features-xs">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Leadership</a></li>
+                <li><a href="">Newsroom</a></li>
+                <li><a href="">Affiliates</a></li>
+                <li><a href="">Influencers</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Culture</a></li>
+                <li><a href="">Diversity & Inclusion</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <a class="link-hover-xs" href="#">Help</a>
+        <div class="container-features-xs">
+            <ul>
+                <li><a href="">Help center</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">System Status</a></li>
+                <li><a href="">Developer APIs</a></li>
+            </ul>
+
+        </div>
+        </div>
+    </div>
+    
 
     <script src="./assets/js/main.js"></script>
 </body>
